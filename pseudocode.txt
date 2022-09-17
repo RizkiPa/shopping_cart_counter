@@ -1,0 +1,18 @@
+SET "itemsName" WITH STRING ARRAY LENGTH(99)
+STORE "done" WITH STRING "no"
+STORE "i" WITH NUMBER 0
+
+WHILE "done" IS NOT "yes"
+    DO
+        IF "i" IS LESS THAN 99
+            PRINT "Masukan nama barang"
+            READ AND WRITE "itemsName[i]" WITH STRING
+            ADD "i" BY 1
+            PRINT "Selesai menambahkan?"
+            READ AND WRITE "done" WITH STRING
+        ELSE
+            WRITE "done" WITH "yes"
+    END DO
+
+PRINT "Jumlah barang dalam keranjang adalah "
+PRINT i
