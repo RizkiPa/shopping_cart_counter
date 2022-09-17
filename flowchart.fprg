@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jonat"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-17 12:25:04 PM"/>
+        <attribute name="created" value="am9uYXQ7REVTS1RPUC1LVkJDU0FBOzIwMjItMDktMTc7MTI6MjQ6NTYgUE07MjkxNw=="/>
+        <attribute name="edited" value="am9uYXQ7REVTS1RPUC1LVkJDU0FBOzIwMjItMDktMTc7MTI6MjU6MDQgUE07MTszMDE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>
