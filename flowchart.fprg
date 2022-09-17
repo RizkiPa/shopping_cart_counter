@@ -4,12 +4,34 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="jonat"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-09-17 12:25:04 PM"/>
+        <attribute name="saved" value="2022-09-17 12:40:27 PM"/>
         <attribute name="created" value="am9uYXQ7REVTS1RPUC1LVkJDU0FBOzIwMjItMDktMTc7MTI6MjQ6NTYgUE07MjkxNw=="/>
-        <attribute name="edited" value="am9uYXQ7REVTS1RPUC1LVkJDU0FBOzIwMjItMDktMTc7MTI6MjU6MDQgUE07MTszMDE5"/>
+        <attribute name="edited" value="am9uYXQ7REVTS1RPUC1LVkJDU0FBOzIwMjItMDktMTc7MTI6MzI6MDkgUE07Nztqb25hdDtERVNLVE9QLUtWQkNTQUE7MjAyMi0wOS0xNDswMjowMjowOCBQTTtvcmlnaW5hbF9mbG93Y2hhLmZwcmc7ODIxNw=="/>
+        <attribute name="edited" value="am9uYXQ7REVTS1RPUC1LVkJDU0FBOzIwMjItMDktMTc7MTI6NDA6MjcgUE07NDszMDI0"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
-        <body/>
+        <body>
+            <declare name="itemsName" type="String" array="True" size="99"/>
+            <declare name="done" type="String" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="done" expression="&quot;no&quot;"/>
+            <assign variable="i" expression="0"/>
+            <while expression="done != &quot;yes&quot;">
+                <if expression="i&lt;99">
+                    <then>
+                        <output expression="&quot;Masukan nama barang&quot;" newline="True"/>
+                        <input variable="itemsName[i]"/>
+                        <assign variable="i" expression="i+1"/>
+                        <output expression="&quot;Selesai menambahkan?&quot;" newline="True"/>
+                        <input variable="done"/>
+                    </then>
+                    <else>
+                        <assign variable="done" expression="&quot;yes&quot;"/>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;Jumlah barang dalam keranjang adalah &quot;&amp;i" newline="True"/>
+        </body>
     </function>
 </flowgorithm>
