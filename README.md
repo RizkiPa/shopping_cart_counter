@@ -4,4 +4,4 @@ Final Project for Software Engineering course at Ruangguru CAMP
 
 ## Authors
 
-- [Jonathan Hadi](https://www.github.com/jonathanhadi) - `BE2697001`
+- [Jonathan Hadi](https://www.github.com/RizkiPa) - `BE2619455`
